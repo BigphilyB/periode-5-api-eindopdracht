@@ -1,0 +1,387 @@
+{
+    "success": true,
+    "error": null,
+    "response": [
+        {
+            "id": "OPENAQ_NL4BF2483",
+            "loc": {
+                "long": 5.70842,
+                "lat": 52.1116
+            },
+            "place": {
+                "name": "wekerom",
+                "state": "ge",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 20,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "o3",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 7,
+                            "valueUGM3": 14.2,
+                            "aqi": 6,
+                            "category": "good",
+                            "color": "00E400"
+                        },
+                        {
+                            "type": "o3",
+                            "name": "ozone",
+                            "valuePPB": 22,
+                            "valueUGM3": 44.66,
+                            "aqi": 20,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NL4BF2483"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 30,
+                "bearingENG": "NNE",
+                "distanceKM": 18.779,
+                "distanceMI": 11.669
+            }
+        },
+        {
+            "id": "OPENAQ_NLFF96C14",
+            "loc": {
+                "long": 5.85778,
+                "lat": 51.8414
+            },
+            "place": {
+                "name": "apollo hotel",
+                "state": "ge",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 14,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "no2",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 15,
+                            "valueUGM3": 29.84,
+                            "aqi": 14,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NLFF96C14"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 125,
+                "bearingENG": "SE",
+                "distanceKM": 24.048,
+                "distanceMI": 14.943
+            }
+        },
+        {
+            "id": "OPENAQ_NL1BA3EC3",
+            "loc": {
+                "long": 5.85694,
+                "lat": 51.8382
+            },
+            "place": {
+                "name": "apollo hotel",
+                "state": "ge",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 19,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "no2",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 21,
+                            "valueUGM3": 39.74,
+                            "aqi": 19,
+                            "category": "good",
+                            "color": "00E400"
+                        },
+                        {
+                            "type": "o3",
+                            "name": "ozone",
+                            "valuePPB": 15,
+                            "valueUGM3": 30.58,
+                            "aqi": 14,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NL1BA3EC3"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 126,
+                "bearingENG": "SE",
+                "distanceKM": 24.208,
+                "distanceMI": 15.042
+            }
+        },
+        {
+            "id": "OPENAQ_NLBF707FB",
+            "loc": {
+                "long": 5.12051,
+                "lat": 52.0677
+            },
+            "place": {
+                "name": "tolsteeg",
+                "state": "ut",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 20,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "o3",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 10,
+                            "valueUGM3": 18.82,
+                            "aqi": 9,
+                            "category": "good",
+                            "color": "00E400"
+                        },
+                        {
+                            "type": "o3",
+                            "name": "ozone",
+                            "valuePPB": 22,
+                            "valueUGM3": 45.41,
+                            "aqi": 20,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NLBF707FB"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 290,
+                "bearingENG": "WNW",
+                "distanceKM": 32.837,
+                "distanceMI": 20.404
+            }
+        },
+        {
+            "id": "OPENAQ_NL1CA21EA",
+            "loc": {
+                "long": 5.12818,
+                "lat": 52.1013
+            },
+            "place": {
+                "name": "griftpark",
+                "state": "ut",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 22,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "o3",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 6,
+                            "valueUGM3": 12.59,
+                            "aqi": 6,
+                            "category": "good",
+                            "color": "00E400"
+                        },
+                        {
+                            "type": "o3",
+                            "name": "ozone",
+                            "valuePPB": 24,
+                            "valueUGM3": 49.06,
+                            "aqi": 22,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NL1CA21EA"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 296,
+                "bearingENG": "WNW",
+                "distanceKM": 33.829,
+                "distanceMI": 21.02
+            }
+        },
+        {
+            "id": "OPENAQ_NL10E501B",
+            "loc": {
+                "long": 5.12446,
+                "lat": 52.105
+            },
+            "place": {
+                "name": "tuindorp",
+                "state": "ut",
+                "country": "nl"
+            },
+            "periods": [
+                {
+                    "dateTimeISO": "2021-11-08T16:00:00+01:00",
+                    "timestamp": 1636383600,
+                    "aqi": 18,
+                    "category": "good",
+                    "color": "00E400",
+                    "method": "airnow",
+                    "dominant": "no2",
+                    "pollutants": [
+                        {
+                            "type": "no2",
+                            "name": "nitrogen dioxide",
+                            "valuePPB": 19,
+                            "valueUGM3": 35.92,
+                            "aqi": 18,
+                            "category": "good",
+                            "color": "00E400"
+                        },
+                        {
+                            "type": "o3",
+                            "name": "ozone",
+                            "valuePPB": 14,
+                            "valueUGM3": 29.08,
+                            "aqi": 13,
+                            "category": "good",
+                            "color": "00E400"
+                        }
+                    ]
+                }
+            ],
+            "profile": {
+                "tz": "Europe/Amsterdam",
+                "sources": [
+                    {
+                        "name": "RIVM"
+                    },
+                    {
+                        "name": "OpenAQ"
+                    }
+                ],
+                "stations": [
+                    "OPENAQ_NL10E501B"
+                ]
+            },
+            "relativeTo": {
+                "lat": 51.9655,
+                "long": 5.5707,
+                "bearing": 297,
+                "bearingENG": "WNW",
+                "distanceKM": 34.24,
+                "distanceMI": 21.276
+            }
+        }
+    ]
+}

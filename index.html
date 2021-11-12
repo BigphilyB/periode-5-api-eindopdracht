@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <title>Document</title>
+    <script src="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.css">
+    <script defer src="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="map-container">
+        <div id="map"></div>
+        <div class="map-controls" style="margin-top:5px;">
+            <a id="map-toggle-anim" href="#">Play</a>
+        </div>
+    </div>
+    
+    <script>
+    
+        window.onload = () => {
+    
+            const aeris = new AerisWeather('gbLdn86tk3K42FugYpjvk', 'lKPuOruPdkQvbtrjMrigh5UKsNHP7N1SBf1oNBG5');
+    
+            aeris.views().then(views => {
+                const map = new views.InteractiveMap(document.getElementById('map'), {
+                    center: {
+                        lat: 39.7,
+                        lon: -93.38
+                    },
+                    zoom: 4,
+                    layers: 'flat-dk,water-depth,admin-cities-dk,fradar,radar,radar-global',
+                    timeline: {
+                        from: -2 * 3600, // seconds
+                        to: 0 * 3600
+                    }
+                });
+                // Animation controls
+                const control = document.getElementById('map-toggle-anim');
+                map.on('load', () => {
+                
+                    // update the control label based on the map animation state
+                    map.on('timeline:play', () => {
+                        control.innerHTML = 'Stop';
+                    });
+                    map.on('timeline:stop', () => {
+                        control.innerHTML = 'Play';
+                    });
+                    
+                    // toggle the animation when the play/stop button is clicked
+                    control.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        map.timeline.toggle();
+                    });
+                });
+            });
+        };
+    
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
